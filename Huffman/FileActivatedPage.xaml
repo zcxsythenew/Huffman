@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Huffman.FileActivatedPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Huffman"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid>
+        <TextBlock x:Name="tips" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource HeaderTextBlockStyle}">
+            您需要将文件解压到哪里？
+        </TextBlock>
+    </Grid>
+</Page>
